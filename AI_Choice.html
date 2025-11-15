@@ -587,7 +587,7 @@
     <div class="container">
         <div class="header">
             <h1>🔄 하이브리드 포지션 AI 시스템</h1>
-            <div class="subtitle">롱/숏 자동 선택 • +55% 익절 / -18% 손절 • 2025-11-15 14:52:18</div>
+            <div class="subtitle">롱/숏 자동 선택 • +55% 익절 / -18% 손절 • 2025-11-15 14:54:41</div>
         </div>
 
         <div class="nav-menu">
@@ -629,7 +629,7 @@
                     <div class="position-stat-label">숏 손실</div>
                 </div>
                 <div class="position-stat-card">
-                    <div class="position-stat-value">-3.13%</div>
+                    <div class="position-stat-value">+0.00%</div>
                     <div class="position-stat-label">롱 누적</div>
                 </div>
                 <div class="position-stat-card">
@@ -639,39 +639,63 @@
             </div>
             
             <div class="position-reason">
-                📝 판단 근거: 거래 완료 이력 없음 (기본값: LONG)
+                📝 판단 근거: 추적 데이터 부족 (기본값: LONG)
             </div>
         </div>
         
         
-            <div class="analysis-summary">
-                <h2 class="section-title">📈 AI 최고점수 종목</h2>
-                
-                <div class="no-symbol-message">
-                    <div class="no-symbol-title">⚠️ 추천 가능한 종목 없음</div>
-                    <div class="no-symbol-text">
-                        <strong>사유:</strong> 모든 종목이 필터링됨<br><br>
-                        모든 패턴 일치 종목이 필터링되었습니다.<br><br>
-                        <strong>💡 다음 분석 시간을 기다려주세요.</strong>
-                    </div>
+        <div class="analysis-summary">
+            <h2 class="section-title">📈 AI 최고점수 종목</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">DASHUSDT</div>
+                    <div class="stat-label">종목명</div>
                 </div>
-                
-                
-                <div class="filter-info">
-                    <div class="filter-info-title">📋 필터링 상세 정보</div>
-                    <div class="filter-info-text">
-                        • 최근 선정 이력으로 제외: DASHUSDT, LSKUSDT<br><br><strong>🔍 점수 상위 후보 종목:</strong><br>1. DASHUSDT - 점수: 54, 신뢰도: 54.0%<br>2. LSKUSDT - 점수: 31, 신뢰도: 63.0%<br>
-                    </div>
+                <div class="stat-card">
+                    <div class="stat-value position-badge position-long">LONG</div>
+                    <div class="stat-label">포지션</div>
                 </div>
-                
+                <div class="stat-card">
+                    <div class="stat-value">52</div>
+                    <div class="stat-label">최종 점수</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">52.0%</div>
+                    <div class="stat-label">신뢰도</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">51.8%</div>
+                    <div class="stat-label">추가상승 확률</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">$86.830000</div>
+                    <div class="stat-label">현재가</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value risk-badge risk-medium">MEDIUM</div>
+                    <div class="stat-label">리스크</div>
+                </div>
             </div>
             
+            <div class="tracking-info">
+                <div class="tracking-info-title">🎯 하이브리드 포지션 시스템 특징</div>
+                <div class="tracking-info-text">
+                    • 최근 6개 추적 결과로 롱/숏 자동 선택<br>
+                    • 수익률 기준: +5% 이상 (수익) / -5% 이하 (손실)<br>
+                    • 현재 선택: <strong>LONG</strong> 포지션<br>
+                    • +55% 익절 시스템 적용<br>
+                    • -18% 손절 시스템 적용
+                </div>
+            </div>
+        </div>
+        
         
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="section-title">📈 BTCUSDT 실시간 차트 (4시간봉)</h2>
+                <h2 class="section-title">📈 DASHUSDT 실시간 차트 (4시간봉)</h2>
                 <div class="chart-controls">
-                    <a href="https://www.binance.com/en/futures/BTC_USDT" target="_blank" class="chart-btn binance-btn">
+                    <a href="https://www.binance.com/en/futures/DASH_USDT" target="_blank" class="chart-btn binance-btn">
                         🏦 바이낸스에서 보기
                     </a>
                 </div>
@@ -685,7 +709,7 @@
             new TradingView.widget({
                 "width": "100%",
                 "height": 800,
-                "symbol": "BINANCE:BTCUSDT",
+                "symbol": "BINANCE:DASHUSDT",
                 "interval": "240",
                 "timezone": "Asia/Seoul",
                 "theme": "dark",
@@ -714,7 +738,7 @@
                 <div class="tracking-info-text">
                     <strong>승률:</strong> 0.0% (0/0) | 
                     <strong>누적 수익률:</strong> <span class="negative">+0.00%</span> | 
-                    <strong>총 추적 건수:</strong> 6건<br>
+                    <strong>총 추적 건수:</strong> 1건<br>
                     <strong>🎉 익절 발동:</strong> <span class="positive">0건 (0.0%)</span> | 
                     <strong>🛑 손절 발동:</strong> <span class="negative">0건 (0.0%)</span>
                 </div>
@@ -738,66 +762,11 @@
                 <tbody>
                     
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-15 (토) 14:44</td>
-                    <td><a href="https://www.binance.com/en/futures/LSK_USDT" target="_blank" class="symbol-link">LSKUSDT</a></td>
-                    <td><span class="position-badge position-long">📈 LONG</span></td>
-                    <td style="font-weight: bold;">31</td>
-                    <td style="font-weight: bold;">30.6%</td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span class="risk-badge risk-medium">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-15 (토) 14:44</td>
-                    <td><a href="https://www.binance.com/en/futures/LSK_USDT" target="_blank" class="symbol-link">LSKUSDT</a></td>
-                    <td><span class="position-badge position-long">📈 LONG</span></td>
-                    <td style="font-weight: bold;">31</td>
-                    <td style="font-weight: bold;">30.6%</td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span class="risk-badge risk-medium">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-15 (토) 13:06</td>
+                    <td style="font-weight: bold;">2025-11-15 (토) 14:54</td>
                     <td><a href="https://www.binance.com/en/futures/DASH_USDT" target="_blank" class="symbol-link">DASHUSDT</a></td>
                     <td><span class="position-badge position-long">📈 LONG</span></td>
-                    <td style="font-weight: bold;">40</td>
-                    <td style="font-weight: bold;">39.6%</td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span class="risk-badge risk-medium">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-15 (토) 13:06</td>
-                    <td><a href="https://www.binance.com/en/futures/DASH_USDT" target="_blank" class="symbol-link">DASHUSDT</a></td>
-                    <td><span class="position-badge position-long">📈 LONG</span></td>
-                    <td style="font-weight: bold;">40</td>
-                    <td style="font-weight: bold;">39.6%</td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span class="risk-badge risk-medium">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-15 (토) 12:28</td>
-                    <td><a href="https://www.binance.com/en/futures/ZEN_USDT" target="_blank" class="symbol-link">ZENUSDT</a></td>
-                    <td><span class="position-badge position-long">📈 LONG</span></td>
-                    <td style="font-weight: bold;">29</td>
-                    <td style="font-weight: bold;">28.9%</td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span class="risk-badge risk-medium">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-15 (토) 12:28</td>
-                    <td><a href="https://www.binance.com/en/futures/ZEN_USDT" target="_blank" class="symbol-link">ZENUSDT</a></td>
-                    <td><span class="position-badge position-long">📈 LONG</span></td>
-                    <td style="font-weight: bold;">29</td>
-                    <td style="font-weight: bold;">28.9%</td>
+                    <td style="font-weight: bold;">52</td>
+                    <td style="font-weight: bold;">51.8%</td>
                     <td><div class="tracking-result tracking-pending">대기중</div></td>
                     <td><div class="return-stats">-</div></td>
                     <td><span class="risk-badge risk-medium">대기</span></td>
