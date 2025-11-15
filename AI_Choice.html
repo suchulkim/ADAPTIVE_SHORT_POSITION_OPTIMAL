@@ -587,7 +587,7 @@
     <div class="container">
         <div class="header">
             <h1>🔄 하이브리드 포지션 AI 시스템</h1>
-            <div class="subtitle">롱/숏 자동 선택 • +55% 익절 / -18% 손절 • 2025-11-15 14:44:16</div>
+            <div class="subtitle">롱/숏 자동 선택 • +55% 익절 / -18% 손절 • 2025-11-15 14:49:32</div>
         </div>
 
         <div class="nav-menu">
@@ -629,7 +629,7 @@
                     <div class="position-stat-label">숏 손실</div>
                 </div>
                 <div class="position-stat-card">
-                    <div class="position-stat-value">+0.00%</div>
+                    <div class="position-stat-value">-6.67%</div>
                     <div class="position-stat-label">롱 누적</div>
                 </div>
                 <div class="position-stat-card">
@@ -639,63 +639,39 @@
             </div>
             
             <div class="position-reason">
-                📝 판단 근거: 추적 데이터 부족 (기본값: LONG)
+                📝 판단 근거: 거래 완료 이력 없음 (기본값: LONG)
             </div>
         </div>
         
         
-        <div class="analysis-summary">
-            <h2 class="section-title">📈 AI 최고점수 종목</h2>
-            
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-value">LSKUSDT</div>
-                    <div class="stat-label">종목명</div>
+            <div class="analysis-summary">
+                <h2 class="section-title">📈 AI 최고점수 종목</h2>
+                
+                <div class="no-symbol-message">
+                    <div class="no-symbol-title">⚠️ 추천 가능한 종목 없음</div>
+                    <div class="no-symbol-text">
+                        <strong>사유:</strong> 모든 종목이 필터링됨<br><br>
+                        모든 패턴 일치 종목이 필터링되었습니다.<br><br>
+                        <strong>💡 다음 분석 시간을 기다려주세요.</strong>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value position-badge position-long">LONG</div>
-                    <div class="stat-label">포지션</div>
+                
+                
+                <div class="filter-info">
+                    <div class="filter-info-title">📋 필터링 상세 정보</div>
+                    <div class="filter-info-text">
+                        • 최근 선정 이력으로 제외: DASHUSDT, LSKUSDT<br><br><strong>🔍 점수 상위 후보 종목:</strong><br>1. DASHUSDT - 점수: 50, 신뢰도: 50.0%<br>2. LSKUSDT - 점수: 31, 신뢰도: 62.0%<br>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value">31</div>
-                    <div class="stat-label">최종 점수</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">63.0%</div>
-                    <div class="stat-label">신뢰도</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">30.6%</div>
-                    <div class="stat-label">추가상승 확률</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">$0.290600</div>
-                    <div class="stat-label">현재가</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value risk-badge risk-high">HIGH</div>
-                    <div class="stat-label">리스크</div>
-                </div>
+                
             </div>
             
-            <div class="tracking-info">
-                <div class="tracking-info-title">🎯 하이브리드 포지션 시스템 특징</div>
-                <div class="tracking-info-text">
-                    • 최근 6개 추적 결과로 롱/숏 자동 선택<br>
-                    • 수익률 기준: +5% 이상 (수익) / -5% 이하 (손실)<br>
-                    • 현재 선택: <strong>LONG</strong> 포지션<br>
-                    • +55% 익절 시스템 적용<br>
-                    • -18% 손절 시스템 적용
-                </div>
-            </div>
-        </div>
-        
         
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="section-title">📈 LSKUSDT 실시간 차트 (4시간봉)</h2>
+                <h2 class="section-title">📈 BTCUSDT 실시간 차트 (4시간봉)</h2>
                 <div class="chart-controls">
-                    <a href="https://www.binance.com/en/futures/LSK_USDT" target="_blank" class="chart-btn binance-btn">
+                    <a href="https://www.binance.com/en/futures/BTC_USDT" target="_blank" class="chart-btn binance-btn">
                         🏦 바이낸스에서 보기
                     </a>
                 </div>
@@ -709,7 +685,7 @@
             new TradingView.widget({
                 "width": "100%",
                 "height": 800,
-                "symbol": "BINANCE:LSKUSDT",
+                "symbol": "BINANCE:BTCUSDT",
                 "interval": "240",
                 "timezone": "Asia/Seoul",
                 "theme": "dark",
